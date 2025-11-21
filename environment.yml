@@ -1,0 +1,23 @@
+name: doctor-research
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - jupyterlab
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+      - tqdm
+      - hydra-core
+      - rich
